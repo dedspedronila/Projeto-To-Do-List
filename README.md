@@ -27,51 +27,6 @@ Tudo isso com uma interface limpa e responsiva, usando HTML e CSS em conjunto co
 
 ---
 
-## 🚀 Como executar o projeto localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/dedspedronila/Projeto-To-Do-List.git
-   cd Projeto-To-Do-List
-   ```
-
-2. Crie um ambiente virtual:
-   ```bash
-   python -m venv venv
-   ```
-
-3. Ative o ambiente virtual:
-   - **Windows**:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - **Linux/Mac**:
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Rode as migrações:
-   ```bash
-   python manage.py migrate
-   ```
-
-6. Inicie o servidor:
-   ```bash
-   python manage.py runserver
-   ```
-
-7. Acesse no navegador:
-   ```
-   http://127.0.0.1:8000/
-   ```
-
----
-
 ## 📌 Objetivo do Projeto
 
 Este projeto foi feito para:
