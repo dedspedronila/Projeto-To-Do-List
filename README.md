@@ -36,6 +36,7 @@ Este projeto foi feito para:
 - Melhorar a lógica e estruturação de aplicações web reais.
 - Criar um portfólio inicial com projetos funcionais e aplicáveis.
 
+---
 
 ## 👨‍💻 Autor
 
