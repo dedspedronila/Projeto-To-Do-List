@@ -1,0 +1,23 @@
+
+{% extends "todo_app/base.html" %}
+
+{% block content %}
+
+<h3>{{ title }}</h3>
+<div>
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input
+                value="Salvar"
+                type="submit">
+            <input
+                value="Cancelar"
+                type="button"
+                onclick="location.href='{% url "index" %}';">
+        </form>
+    </div>
+</div>
+
+{% endblock %}

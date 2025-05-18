@@ -1,0 +1,21 @@
+{% extends "todo_app/base.html" %}
+
+{% block content %}
+
+<h3>Excluir Item da Lista</h3>
+
+<p>Tem certeza de que deseja excluir o item: <b>{{ object.title }}</b>
+    da lista <i>{{ todo_list.title }}</i>?</p>
+
+<form method="POST">
+    {% csrf_token %}
+    <input
+        value="Sim, excluir."
+        type="submit">
+    <input
+        value="Cancelar"
+        type="button"
+        onclick="location.href='{% url "list" todo_list.id %}';">
+</form>
+
+{% endblock %}

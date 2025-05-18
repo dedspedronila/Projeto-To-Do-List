@@ -1,5 +1,3 @@
-<!-- todo_list/todo_app/templates/todo_app/index.html -->
-
 {% extends "todo_app/base.html" %}
 {% block content %}
 <!--index.html-->
@@ -20,4 +18,12 @@
     {% endfor %}
 </ul>
 
+
+<p>
+    <input
+        value="Criar nova Lista"
+        type="button"
+        onclick="location.href='{% url "list-add" %}'"/>
+</p>
 {% endblock %}
+

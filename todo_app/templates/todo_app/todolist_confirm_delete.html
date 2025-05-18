@@ -1,0 +1,21 @@
+{% extends "todo_app/base.html" %}
+
+{% block content %}
+
+<h3>Excluir Lista </h3>
+
+<p>Você tem certeza de que deseja excluir a lista? <i>{{ object.title }}</i>?</p>
+
+
+<form method="POST">
+    {% csrf_token %}
+    <input
+        value="Sim, excluir."
+        type="submit">
+</form>
+<input
+    value="Cancelar"
+    type="button"
+    onclick="location.href='{% url "index" %}';">
+
+{% endblock %}
