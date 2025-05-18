@@ -81,13 +81,6 @@ Este projeto foi feito para:
 - Melhorar a lógica e estruturação de aplicações web reais.
 - Criar um portfólio inicial com projetos funcionais e aplicáveis.
 
----
-
-## 📸 Imagens do Projeto
-
-> (Adicione aqui prints da tela principal, se desejar. Podemos fazer juntos depois se quiser.)
-
----
 
 ## 👨‍💻 Autor
 
